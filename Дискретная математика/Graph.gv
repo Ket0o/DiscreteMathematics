@@ -1,0 +1,17 @@
+graph {
+	C [label=C]
+	A [label=A]
+	D [label=D]
+	B [label=B]
+	A -- A
+	A -- B
+	B -- A
+	A -- C
+	C -- A
+	A -- D
+	D -- A
+	B -- C
+	C -- B
+	B -- D
+	C -- D
+}
